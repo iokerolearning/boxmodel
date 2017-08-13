@@ -1,3 +1,7 @@
+* { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+  
 body {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
   background-repeat: repeat;
@@ -13,6 +17,7 @@ body {
   left: 0;
   top: 0;
   z-index: 999;
+  width: 100%;
 }
 
 .navigation ul {
@@ -47,6 +52,7 @@ body {
   background-size: cover;
   position: relative;
   top: -50px;
+  height: 320px;
 }
 
 .content-body {
